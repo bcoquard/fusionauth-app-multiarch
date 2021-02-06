@@ -34,5 +34,5 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_REPO }}:latest
-            ${{ secrets.DOCKERHUB_REPO }}:${{ env.FUSIONAUTH_VERSION }}
+            ${{ secrets.DOCKERHUB_REPO_FUSIONAUTH }}:latest
+            ${{ secrets.DOCKERHUB_REPO_FUSIONAUTH }}:${{ env.FUSIONAUTH_VERSION }}
